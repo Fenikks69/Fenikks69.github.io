@@ -1,53 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="lv">
+
 <head>
-	<title>My Portfolio</title>
-	<link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-	<header>
-		<h1>Toms Bukovskis</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#work">Work</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="about">
-			<h2>About Me</h2>
-			<p>Sveiki man sauc Toms, es mācos par programētāju un man patik vakaros skriet pliks pa mezu ar sofiju un regnāru</p>
-		</section>
-		<section id="work">
-			<h2>Mani darbi:</h2>
-			<div class="project">
-				<img src="https://media.wired.com/photos/593261cab8eb31692072f129/master/w_2560%2Cc_limit/85120553.jpg" alt="Project 1">
-				<h3>Dzīvnieki</h3>
-				<p>Darbs ir par dzīvniekiem un satur īsu aprakstu par tiem dzīvniekiem</p>
-			</div>
-			<div class="project">
-				<img src="https://static.boredpanda.com/blog/wp-content/uploads/2014/11/homeless-slavik-street-fashion-photography-yurko-dyachyshyn-1.jpg" alt="Project 2">
-				<h3>Cēsu slavenības</h3>
-				<p>Darbs ir par cēsu slavenībām un satur īsu aprakstu par tām personām</p>
-			</div>
-		</section>
-		<section id="contact">
-			<h2>Sazinaties ar manīm</h2>
-			<form>
-				<label for="name">Vārds:</label>
-				<input type="text" id="name" name="name" required>
-				<label for="email">Epasts:</label>
-				<input type="email" id="email" name="email" required>
-				<label for="message">Īzziņa:</label>
-				<textarea id="message" name="message" required></textarea>
-				<input type="submit" value="Sūtīt">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 Fenikks69</p>
-	</footer>
+  <nav>
+    <div class="logo"></div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+	  <li><a href="manidarbi.html">Mani darbi</a></li>
+	  <li><a href="kontakti.html">Kontakti</a></li>
+    </ul>
+  </nav>
+  <div class="index">
+  </div>
+  <div class="bg-text">
+    <h1>Portfolio</h1>
+    <p>MEOW MEOW KACHAW</p>
+  </div>
 </body>
+
 </html>

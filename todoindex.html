@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mana lapa</title>
+</head>
+<body>
+    <h1>Mana lapa</h1>
+    
+    <label for="a">1.skaitlis:</label>
+    <input type="number" name="a" id="a"><br><br>
+    <label for="b">2.skaitlis:</label>
+    <input type="number" name="b" id="b">
+    <button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Aprēķināt</button>
+    <script>
+    function add(a,b){
+    var sum = a + b;
+    console.log(sum);
+    }
+    </script>
+</body>
+</html>
